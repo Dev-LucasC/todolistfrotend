@@ -1,0 +1,57 @@
+{
+  "user": {
+    "id": 1,
+    "name": "João Silva",
+    "email": "joao@example.com"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Projeto Trabalho",
+      "groups": [
+        {
+          "id": 1,
+          "name": "Tarefas Urgentes",
+          "tasks": [
+            { "id": 1, "title": "Finalizar relatório", "completed": false },
+            { "id": 2, "title": "Enviar e-mail para equipe", "completed": true },
+            { "id": 3, "title": "Revisar proposta comercial", "completed": false }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Reuniões",
+          "tasks": [
+            { "id": 4, "title": "Preparar apresentação", "completed": false },
+            { "id": 5, "title": "Participar de call semanal", "completed": true },
+            { "id": 6, "title": "Alinhar expectativas com cliente", "completed": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Projeto Pessoal",
+      "groups": [
+        {
+          "id": 3,
+          "name": "Rotina de Estudos",
+          "tasks": [
+            { "id": 7, "title": "Ler artigo sobre UX", "completed": true },
+            { "id": 8, "title": "Assistir aula de React", "completed": false },
+            { "id": 9, "title": "Criar mini projeto em NestJS", "completed": false }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Saúde e Bem-estar",
+          "tasks": [
+            { "id": 10, "title": "Ir à academia", "completed": true },
+            { "id": 11, "title": "Beber 2L de água", "completed": false },
+            { "id": 12, "title": "Dormir 8 horas", "completed": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
